@@ -1,0 +1,16 @@
+@mixin size($x) {
+  @media screen and #{$x} {
+    @content;
+  }
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin header__button-border {
+  background-size: 1px;
+  border-color: #31B768;
+}
