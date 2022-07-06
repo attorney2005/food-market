@@ -17,88 +17,59 @@
   grid-template-rows: 344px 100px;
 }
 
-.header__presentation {
-  float: right;
-  padding-top: 106px;
-  //padding-left: 60px;
-  width: 1098px;
-  height: 344px;
-  background-size: 1098px, auto;
-  border-radius: 10px;
-  background: url(../../header-pictures/pic.jpg) no-repeat;
-}
-
-.header__presentation-title {
-  margin: 0 0 0 60px;
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
-}
-
-.header__presentation-text {
-  margin: 20px 0 0 60px;
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.header__form {
-  position: absolute;
-  top: 314px;
-  right: 486px;
-}
-
-.header__form-container {
-  display: inline-block;
-  position: relative;
-  padding-left: 10px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-}
-
-.header__form-input {
-  background-color: #E8E8EB;
-}
-
-.header__form-input:checked {
-  background-color: #31B768;
-}
-
-.header__form-container-checkmark {
-
-}
-
-//.header__aside {
-//  display: inline-block;
-//  float: left;
-//  width: 252px;
-//  height: 536px;
-//  padding-top: 40px;
-//  padding-left: 30px;
+//.header__presentation {
+//  float: right;
+//  padding-top: 106px;
+//  //padding-left: 60px;
+//  width: 1098px;
+//  height: 344px;
+//  background-size: 1098px, auto;
 //  border-radius: 10px;
-//  background-color: #FFFFFF;
+//  background: url(../../header-pictures/pic.jpg) no-repeat;
 //}
 //
-//.header__aside-container {
-//
+//.header__presentation-title {
+//  margin: 0 0 0 60px;
+//  font-family: Raleway, sans-serif;
+//  font-style: normal;
+//  font-weight: 500;
+//  font-size: 26px;
 //}
 //
-//.header__aside-text {
-//  margin-top: 20px;
-//}
-//.header__aside-text:first-child {
-//  margin-top: 48px;
+//.header__presentation-text {
+//  margin: 20px 0 0 60px;
+//  font-family: Raleway, sans-serif;
+//  font-style: normal;
+//  font-weight: 400;
+//  font-size: 16px;
 //}
 //
-//.header__aside-login {
-//  margin-top: 78px;
-//  border: #01170A;
-//  background-size: 1px;
+//.header__form {
+//  position: absolute;
+//  top: 314px;
+//  right: 486px;
 //}
-
+//
+//.header__form-container {
+//  display: inline-block;
+//  position: relative;
+//  padding-left: 10px;
+//  margin-bottom: 12px;
+//  cursor: pointer;
+//  font-size: 22px;
+//}
+//
+//.header__form-input {
+//  background-color: #E8E8EB;
+//}
+//
+//.header__form-input:checked {
+//  background-color: #31B768;
+//}
+//
+//.header__form-container-checkmark {
+//
+//}
 
 .header__sort {
 padding-top: 50px;

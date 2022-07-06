@@ -5,7 +5,7 @@ import '../../utils/variables.scss';
 import '../../utils/mixins.scss';
 import Header from "../header/header";
 
-function Header__aside(): JSX.Element {
+function HeaderAside(): JSX.Element {
   return (
     <aside className="header__aside">
       <svg width="90" height="20" viewBox="0 0 90 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,4 +48,4 @@ function Header__aside(): JSX.Element {
   )
 }
 
-export default Header__aside
+export default HeaderAside
