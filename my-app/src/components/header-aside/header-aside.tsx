@@ -4,6 +4,7 @@ import './header-aside.scss';
 import '../../utils/variables.scss';
 import '../../utils/mixins.scss';
 import Header from "../header/header";
+import LogIn from "../log-in/log-in";
 
 function HeaderAside(): JSX.Element {
   return (
@@ -39,10 +40,7 @@ function HeaderAside(): JSX.Element {
         <p className="header__aside-text">Десерты</p>
         <p className="header__aside-text">Напитки</p>
         <p className="header__aside-text">Статьи</p>
-        <div className="header__aside-login">
-          <p>Вход/Регистрация</p>
-          <p>О проекте</p>
-        </div>
+        <LogIn/>
       </div>
     </aside>
   )
