@@ -1,0 +1,61 @@
+
+.header__sort {
+  padding-top: 50px;
+}
+
+.header__sort-simple {
+  padding-top: 30px;
+}
+
+.header__sort-title {
+  display: inline-block;
+}
+
+.header__sort-button {
+  margin-left: 20px;
+  height: 40px;
+  width: 137px;
+  background-size: 1px;
+  border-radius: 5px;
+  border-color: #31B768;
+}
+
+.header__sort-input {
+  margin-left: 205px;
+  height: 40px;
+  width: 280px;
+  background-size: 1px;
+  border-radius: 5px;
+  border-color: #31B768;
+}
+
+.header__sort-input:checked {
+  background-color: #31B768;
+}
+
+.header__sort-teg {
+  margin-left: 20px;
+  height: 34px;
+  width: 70px;
+  background-size: 1px;
+  border-radius: 5px;
+  border-color: #31B768;
+}
+
+.header__sort-special {
+  padding-bottom: 50px;
+}
+
+.teg12 {
+  margin-top: 14px;
+  margin-left: 20px;
+  height: 34px;
+  width: 118px;
+}
+
+.teg13 {
+  margin-top: 14px;
+  margin-left: 20px;
+  height: 34px;
+  width: 138px;
+}
