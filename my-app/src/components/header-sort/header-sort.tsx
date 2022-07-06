@@ -1,5 +1,6 @@
 import React from "react";
 import './header-sort.scss';
+import SortButton from "../sort-button/sort-button";
 
 function HeaderSort(): JSX.Element {
   return (
@@ -12,7 +13,7 @@ function HeaderSort(): JSX.Element {
         <input className="header__sort-input" value="Поиск"/>
         <div>
           <h4 className="header__sort-title">Тэги:</h4>
-          <button className="header__sort-teg">Омлет</button>
+          <SortButton name={"name"}/>
           <button className="header__sort-teg">Завтрак</button>
           <button className="header__sort-teg">Простой</button>
           <button className="header__sort-teg">Десерт</button>
