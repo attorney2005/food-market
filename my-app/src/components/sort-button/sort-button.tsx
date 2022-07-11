@@ -8,7 +8,11 @@ type SortButtonProps = {
 
 function SortButton(props: SortButtonProps): JSX.Element {
   return (
-    <button onClick={props.onClick}>{props.text}</button>
+    <button
+      className="header__sort-button"
+      onClick={props.onClick}>
+      {props.text}
+    </button>
   )
 }
 

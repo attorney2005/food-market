@@ -24,14 +24,14 @@ const buttonNames = [
 function App() {
   return (
     <div className="App">
-      <SortButton text={ buttonNames.forEach(buttonName => buttonName} onClick={showAlert}/>
-      <SortButton text={"2"} onClick={showAlert}/>
+      {buttonNames.map(buttonName => (
+        <SortButton
+          text={buttonName}
+          onClick={() => alert(buttonName)}
+        />
+      ))}
     </div>
   );
-}
-
-function showAlert() {
-  alert("click");
 }
 
 export default App;

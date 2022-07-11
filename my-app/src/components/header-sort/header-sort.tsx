@@ -24,7 +24,7 @@ const names = [
 function HeaderSort(): JSX.Element {
   return (
     <div className="header__sort">
-      <SortButton></SortButton>
+      {/*<SortButton></SortButton>*/}
     </div>
   )
 }
