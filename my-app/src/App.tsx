@@ -1,15 +1,37 @@
-
 import './App.css';
 import React from 'react';
-import Header from './components/header/header';
-import HeaderAside from "./components/header-aside/header-aside";
+import SortButton from "./components/sort-button/sort-button";
+
+const buttonNames = [
+  "Популярности",
+  "Каллорийности",
+  "Новизне",
+  "Омлет",
+  "Завтрак",
+  "Простой",
+  "Десерт",
+  "Бекон",
+  "Тунец",
+  "Лосось",
+  "Ребрышки",
+  "Закуски",
+  "Салаты",
+  "Курица",
+  "Праздничные блюда",
+  "Итальянская кухня"
+];
 
 function App() {
   return (
     <div className="App">
-    <Header/>
+      <SortButton text={ buttonNames.forEach(buttonName => buttonName} onClick={showAlert}/>
+      <SortButton text={"2"} onClick={showAlert}/>
     </div>
   );
+}
+
+function showAlert() {
+  alert("click");
 }
 
 export default App;

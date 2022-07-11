@@ -1,11 +1,14 @@
 import React from "react";
 import './sort-button.scss';
 
-const names = ["Популярности", "Каллорийности", "Новизне", "Омлет", "Завтрак", "Простой", "Десерт", "Бекон", "Тунец", "Лосось", "Ребрышки", "Закуски", "Салаты", "Курица", "Праздничные блюда", "Итальянская кухня"];
+type SortButtonProps = {
+  text: string;
+  onClick: () => void;
+}
 
-function SortButton(name:string): JSX.Element {
+function SortButton(props: SortButtonProps): JSX.Element {
   return (
-    <button>{name}</button>
+    <button onClick={props.onClick}>{props.text}</button>
   )
 }
 
