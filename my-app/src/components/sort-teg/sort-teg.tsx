@@ -1,19 +1,19 @@
 import React from "react";
-import './sort-button.scss';
+import './sort-teg.scss';
 
 type SortButtonProps = {
   text: string;
   onClick: () => void;
 }
 
-function SortButton(props: SortButtonProps): JSX.Element {
+function SortTeg(props: SortButtonProps): JSX.Element {
   return (
     <button
-      className="header__sort-button"
+      className="header__sort-teg"
       onClick={props.onClick}>
       {props.text}
     </button>
   )
 }
 
-export default SortButton
+export default SortTeg
