@@ -1,4 +1,5 @@
 .header__sort-on-container {
+  position: relative;
 padding-left: 31px;
 }
 
@@ -19,3 +20,8 @@ padding-left: 31px;
   border-color: #31B768;
 }
 
+.header__sort-input-pic {
+  position: absolute;
+  bottom: 13px;
+  right: 65px;
+}

@@ -1,6 +1,19 @@
 
 .header__aside-login {
+  position: relative;
   padding: 48px 0 0 28px;
   border: #01170A;
   background-size: 1px;
+}
+
+.header__aside-login-user-icon {
+  position: absolute;
+  bottom: 36px;
+  left: 1px;
+}
+
+.header__aside-login-info-icon {
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
 }
