@@ -1,10 +1,22 @@
 
 .header__aside-login {
   position: relative;
-  padding: 48px 0 0 28px;
+  padding: 42px 0 0 30px;
   border: #01170A;
   background-size: 1px;
 }
+
+.header__aside-login-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.44px;
+}
+
+.header__aside-login-text:nth-child(2n) {
+  margin-top: 22px;
+}
+
 
 .header__aside-login-user-icon {
   position: absolute;
