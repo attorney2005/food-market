@@ -1,8 +1,8 @@
 
 .header__presentation {
   float: right;
-  padding-top: 106px;
-  //padding-left: 60px;
+  padding-top: 134px;
+  padding-left: 81px;
   width: 1098px;
   height: 344px;
   background-size: 1098px, auto;
@@ -11,31 +11,32 @@
 }
 
 .header__presentation-title {
-  margin: 0 0 0 60px;
+  margin: 0;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
+  line-height: 33.8px;
 }
 
 .header__presentation-text {
-  margin: 20px 0 0 60px;
+  margin: 20px 0 0 0;
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 22.4px;
 }
 
 .header__form {
   position: absolute;
-  top: 314px;
-  right: 486px;
+  bottom: 11px;
+  right: 549px;
 }
 
 .header__form-container {
   display: inline-block;
   position: relative;
-  padding-left: 10px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;

@@ -1,5 +1,6 @@
 import React from "react";
 import './sort-teg-container.scss';
+import './sort-teg.tsx';
 import SortTeg from "./sort-teg";
 
 const buttonNames = [
@@ -16,10 +17,10 @@ const buttonNames = [
   "Курица",
 ];
 
-
 function SortTegContainer(): JSX.Element {
   return (
-    <div className="sort__meals-container">
+    <div className="sort__teg-container">
+      <h4 className="header__sort-teg-title">Тэги:</h4>
       {buttonNames.map(buttonName => (
         <SortTeg
           text={buttonName}

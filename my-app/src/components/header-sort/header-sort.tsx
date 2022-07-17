@@ -6,7 +6,6 @@ import SortTegContainer from "../sort-teg/sort-teg-container";
 
 function HeaderSort(): JSX.Element {
   return (
-
     <div className="header__sort">
       <SortOnContainer/>
       <SortTegContainer/>
