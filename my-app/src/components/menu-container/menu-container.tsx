@@ -6,14 +6,14 @@ import MenuComponent from "../menu-component/menu-component";
 const smallPhotoBlockNames = [
   {
     id: 1,
-    img: "../my-app/src/component/menu-pictures/menu-picture/edges.jpg",
+    img: "pic.jpg",
     title: "Сочные ребрышки",
     text: "Этот ароматный сладкий соус-маринад для ребрыше неотличим от соуса, который...",
   },
 
   {
     id: 2,
-    img: "edges.jpg",
+    img: "/Users/vadimbajbuz/Code/learning/food-market/my-app/src/menu-pictures/edges.jpg",
     title: "Стейк из лосося",
     text: "Лосось обладает очень нежным, мягким вкусом и восхиттителен сам по себе",
   },

@@ -12,10 +12,9 @@ function MenuComponent(props:OfferWithPhotoSmallProps): JSX.Element {
   return (
     <div className="menu__component">
       <div className="offer__container-photo">
-        <img className="menu__component-photo" src={props.img}
+        <img className="menu__component-photo" src="../../header-pictures/pic.jpg"
              width="252" height="192" alt="Edges">
         </img>
-        {props.img}
       </div>
       <div className="menu__component-text-block">
         <h4 className="menu__component-title">{props.title}</h4>
