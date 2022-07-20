@@ -3,6 +3,7 @@ import './sort-teg-container.scss';
 import './sort-teg.tsx';
 import SortTeg from "./sort-teg";
 
+
 const buttonNames = [
   "Омлет",
   "Завтрак",
@@ -15,12 +16,14 @@ const buttonNames = [
   "Закуски",
   "Салаты",
   "Курица",
+  "Праздничные блюда",
+  "Итальянская кухня"
 ];
 
 function SortTegContainer(): JSX.Element {
   return (
     <div className="sort__teg-container">
-      <h4 className="header__sort-teg-title">Тэги:</h4>
+      {/*<h4 className="header__sort-teg-title">Тэги:</h4>*/}
       {buttonNames.map(buttonName => (
         <SortTeg
           text={buttonName}

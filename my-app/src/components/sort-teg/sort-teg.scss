@@ -10,3 +10,13 @@
   font-size: 12px;
   line-height: 16.44px;
 }
+
+.header__sort-teg:nth-child(12n) {
+  font-size: 14px;
+}
+
+.header__sort-teg:nth-child(13n) {
+  margin: 10px 0 0 9px;
+  padding-left: 15px;
+  font-size: 13px;
+}

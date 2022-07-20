@@ -5,7 +5,7 @@ import SortOn from "./sort-on";
 
 const sortOnButtons = [
   "Популярности",
-  "Калорийности",
+  "Каллорийности",
   "Новизне"
 ]
 
