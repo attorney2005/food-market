@@ -1,15 +1,65 @@
 .menu__component {
   width: 534px;
-  height: 344px;
+  //height: 344px;
+  border-radius: 10px;
   background-color: #61dafb;
 }
 
 .menu__component-with-out-photo {
   width: 252px;
   height: 152px;
+  //padding: 22px 23px 23px 30px;
+  font-family: Raleway, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.9px;
   border-radius: 10px;
   background-color: burlywood;
   stroke-width: 1px;
   stroke: #31B768;
+  //fill: #FFFFFF;
+}
 
+.menu__component-with-out-photo:nth-child(3n){
+background-color: red;
+}
+
+.menu__component-title {
+  margin: 0;
+  font-family: Raleway, serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.menu__component-text {
+  //margin-top: 8px;
+  overflow-wrap: break-word;
+}
+
+.menu__component-with-out-photo-info-container {
+  display: grid;
+}
+
+.menu__component-info {
+
+  grid-row: 1 / 2;
+
+}
+
+.menu__component-with-small-photo {
+  padding: 15px;
+  width: 252px;
+  //height: 344px;
+  border-radius: 10px;
+  background-color:darkorange;
+}
+
+.menu__component-text-block {
+  display: grid;
+}
+
+.menu__component-info {
+  grid-row: 1 / 2;
+  margin: 0;
 }

@@ -1,3 +1,59 @@
 .menu-container {
-  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 252px 252px 252px 252px 252px;
+  grid-template-rows: 152px 152px 152px 152px 152px 152px 152px;
+  gap: 40px 30px;
+  grid-template-areas:
+  ". b b c d"
+  ". b b f d"
+  ". g g h i"
+  ". g g h i"
+  ". j k l l"
+  ". m k l l"
+}
+
+.menu__component-with-out-photo:nth-child(1n){
+grid-area: c;
+};
+
+.menu__component-with-out-photo:nth-child(3n){
+  grid-area: f;
+};
+
+.menu__component-with-out-photo:nth-child(2n){
+  grid-area: j;
+};
+
+.menu__component-with-out-photo:nth-child(4n){
+  grid-area: m;
+};
+
+
+.menu__component-with-small-photo:nth-child(1n){
+  grid-area: d;
+};
+
+.menu__component-with-small-photo:nth-child(2n){
+  grid-area: h;
+};
+
+.menu__component-with-small-photo:nth-child(3n){
+  grid-area: i;
+};
+
+.menu__component-with-small-photo:nth-child(4n){
+  grid-area: k;
+};
+
+
+.menu__component:nth-child(1n) {
+  grid-area: b;
+}
+
+.menu__component:nth-child(2n) {
+  grid-area: g;
+}
+
+.menu__component:nth-child(3n) {
+  grid-area: l;
 }
