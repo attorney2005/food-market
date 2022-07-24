@@ -12,48 +12,48 @@
   ". m k l l"
 }
 
-.menu__component-with-out-photo:nth-child(1n){
+.menu__component-container:nth-child(3){
 grid-area: c;
 };
 
-.menu__component-with-out-photo:nth-child(3n){
+.menu__component-container:nth-child(1){
   grid-area: f;
 };
 
-.menu__component-with-out-photo:nth-child(2n){
+.menu__component-container:nth-child(5){
   grid-area: j;
 };
 
-.menu__component-with-out-photo:nth-child(4n){
+.menu__component-container:nth-child(6){
   grid-area: m;
 };
 
 
-.menu__component-with-small-photo:nth-child(1n){
+.menu__component-with-small-photo:nth-child(4){
   grid-area: d;
 };
 
-.menu__component-with-small-photo:nth-child(2n){
+.menu__component-with-small-photo:nth-child(10){
   grid-area: h;
 };
 
-.menu__component-with-small-photo:nth-child(3n){
+.menu__component-with-small-photo:nth-child(9){
   grid-area: i;
 };
 
-.menu__component-with-small-photo:nth-child(4n){
+.menu__component-with-small-photo:nth-child(11){
   grid-area: k;
 };
 
 
-.menu__component:nth-child(1n) {
+.menu__component:nth-child(2) {
   grid-area: b;
 }
 
-.menu__component:nth-child(2n) {
+.menu__component:nth-child(8) {
   grid-area: g;
 }
 
-.menu__component:nth-child(3n) {
+.menu__component:nth-child(7) {
   grid-area: l;
 }

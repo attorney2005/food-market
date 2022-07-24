@@ -14,6 +14,7 @@ type OfferWithPhotoSmallProps = {
 function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
   if (props.id < 5) {
     return (
+      <div className="menu__component-container">
         <div className="menu__component-with-out-photo">
           <h4 className="menu__component-title">{props.title}</h4>
           <p className="menu__component-text">{props.text}</p>
@@ -23,6 +24,7 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
             <span className="menu__component-info">{props.calories}</span>
           </div>
         </div>
+      </div>
     )
   }
   if (props.id > 7) {
