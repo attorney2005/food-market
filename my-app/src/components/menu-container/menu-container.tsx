@@ -150,6 +150,7 @@ function MenuContainer(): JSX.Element {
         calories={smallPhotoBlockName.calories}
       />
       ))}
+      <button type="button" className="menu-button">Загрузить еще</button>
     </div>
   )
 }

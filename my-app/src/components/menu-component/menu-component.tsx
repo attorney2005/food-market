@@ -60,7 +60,7 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
         <h4 className="menu__component-title">{props.title}</h4>
         <p>{props.text}</p>
         <form className="menu__component-mailing-form">
-          <input className="menu__component-mailing-input"/>
+          <input className="menu__component-mailing-input" value="Ваша почта"/>
           <button className="menu__component-mailing-button">Подписаться</button>
         </form>
       </div>
@@ -106,6 +106,7 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
       </div>
     )
   }
+  // <button type="button" className="menu-button"></button>
 }
 
 export default MenuComponent
