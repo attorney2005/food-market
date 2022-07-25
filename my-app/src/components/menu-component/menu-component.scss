@@ -1,4 +1,5 @@
 .menu__component {
+  box-sizing:border-box;
   width: 534px;
   //height: 344px;
   border-radius: 10px;
@@ -6,18 +7,22 @@
 }
 
 .menu__component-course {
+  border-radius: 10px;
   background-color: chartreuse;
 }
 
 .menu__component-holiday {
+  border-radius: 10px;
   background-color: darkgrey;
 }
 
 .menu__component-mailing {
+  border-radius: 10px;
   background-color:bisque;
 }
 
 .menu__component-with-out-photo {
+  box-sizing:border-box;
   width: 252px;
   height: 152px;
   //padding: 22px 23px 23px 30px;
@@ -44,12 +49,34 @@ background-color: red;
   line-height: 23.4px;
 }
 
+.menu__component-text-block {
+  padding: 188px 0 0 32px;
+}
+
 .menu__component-text {
-  //margin-top: 8px;
+  font-family: Raleway, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.9px;
   overflow-wrap: break-word;
 }
 
+.menu__component-link {
+  font-family: Raleway, serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.09px;
+}
+
 .menu__component-with-out-photo-info-container {
+  display: grid;
+}
+
+.menu__component-with-small-photo-info-container {
+  display: grid;
+}
+
+.menu__component-photo-info-container {
   display: grid;
 }
 
@@ -60,6 +87,7 @@ background-color: red;
 }
 
 .menu__component-with-small-photo {
+  box-sizing:border-box;
   padding: 15px;
   width: 252px;
   //height: 344px;
@@ -74,4 +102,23 @@ background-color: red;
 .menu__component-info {
   grid-row: 1 / 2;
   margin: 0;
+}
+
+.menu__component-mailing {
+  padding: 0 20px 30px 20px;
+}
+
+.menu__component-mailing-form{
+  display: grid;
+}
+
+.menu__component-mailing-input {
+  padding: 12px 67px 12px 12px;
+  border-radius: 5px;
+}
+
+.menu__component-mailing-button {
+  margin-top: 11px;
+  padding: 12px 67px;
+  border-radius: 5px;
 }

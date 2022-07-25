@@ -31,7 +31,7 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
     return (
       <div className="menu__component-course">
         <h4 className="menu__component-title">{props.title}</h4>
-        <a>Подробнее</a>
+        <a className="menu__component-link">Подробнее</a>
       </div>
     )
   }
@@ -45,7 +45,7 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
         </div>
         <h4 className="menu__component-title">{props.title}</h4>
         <p>{props.text}</p>
-        <a>Подробнее</a>
+        <a className="menu__component-link">Подробнее</a>
       </div>
     )
   }
@@ -59,9 +59,9 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
         </div>
         <h4 className="menu__component-title">{props.title}</h4>
         <p>{props.text}</p>
-        <form >
-          <input/>
-          <button>Подписаться</button>
+        <form className="menu__component-mailing-form">
+          <input className="menu__component-mailing-input"/>
+          <button className="menu__component-mailing-button">Подписаться</button>
         </form>
       </div>
     )
@@ -75,10 +75,10 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
                width="252" height="192" alt="Edges">
           </img>
         </div>
-        <div className="menu__component-text-block">
+        <div className="menu__component-text-block-small-photo">
           <h4 className="menu__component-title">{props.title}</h4>
           <p className="menu__component-text">{props.text}</p>
-          <div className="menu__component-with-out-photo-info-container">
+          <div className="menu__component-with-small-photo-info-container">
             <span className="menu__component-info">{props.like}</span>
             <span className="menu__component-info">{props.time}</span>
             <span className="menu__component-info">{props.calories}</span>
@@ -97,7 +97,7 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
         <div className="menu__component-text-block">
           <h4 className="menu__component-title">{props.title}</h4>
           <p className="menu__component-text">{props.text}</p>
-          <div className="menu__component-with-out-photo-info-container">
+          <div className="menu__component-photo-info-container">
             <span className="menu__component-info">{props.like}</span>
             <span className="menu__component-info">{props.time}</span>
             <span className="menu__component-info">{props.calories}</span>
