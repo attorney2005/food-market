@@ -1,59 +1,57 @@
+
 .menu-container {
   display: grid;
   grid-template-columns: 252px 252px 252px 252px 252px;
   grid-template-rows: 152px 152px 152px 152px 152px 152px 152px;
   gap: 40px 30px;
   grid-template-areas:
-  ". b b c d"
-  ". b b f d"
-  ". g g h i"
-  ". g g h i"
-  ". j k l l"
-  ". m k l l"
+  "a b b c d"
+  "n b b f d"
+  "n g g h i"
+  "o g g h i"
+  "o j k l l"
+  "o m k l l"
 }
 
+.menu__component-course {
+  grid-area: a;
+};
+.menu__component-holiday {
+  grid-area: n;
+}
+.menu__component-mailing {
+  grid-area: o;
+}
 .menu__component-container:nth-child(3){
 grid-area: c;
 };
-
 .menu__component-container:nth-child(1){
   grid-area: f;
 };
-
 .menu__component-container:nth-child(5){
   grid-area: j;
 };
-
 .menu__component-container:nth-child(6){
   grid-area: m;
 };
-
-
 .menu__component-with-small-photo:nth-child(4){
   grid-area: d;
 };
-
 .menu__component-with-small-photo:nth-child(10){
   grid-area: h;
 };
-
 .menu__component-with-small-photo:nth-child(9){
   grid-area: i;
 };
-
 .menu__component-with-small-photo:nth-child(11){
   grid-area: k;
 };
-
-
 .menu__component:nth-child(2) {
   grid-area: b;
 }
-
 .menu__component:nth-child(8) {
   grid-area: g;
 }
-
 .menu__component:nth-child(7) {
   grid-area: l;
 }

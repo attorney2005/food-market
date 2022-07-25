@@ -27,10 +27,50 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
       </div>
     )
   }
+  if (props.id === 12) {
+    return (
+      <div className="menu__component-course">
+        <h4 className="menu__component-title">{props.title}</h4>
+        <a>Подробнее</a>
+      </div>
+    )
+  }
+  if (props.id === 13) {
+    return (
+      <div className="menu__component-holiday">
+        <div className="menu__component-container-photo">
+          <img className="menu__component-photo" src={props.img}
+               width="252" height="192" alt="Edges">
+          </img>
+        </div>
+        <h4 className="menu__component-title">{props.title}</h4>
+        <p>{props.text}</p>
+        <a>Подробнее</a>
+      </div>
+    )
+  }
+  if (props.id === 14) {
+    return (
+      <div className="menu__component-mailing">
+        <div className="menu__component-container-photo">
+          <img className="menu__component-photo" src={props.img}
+               width="252" height="192" alt="Edges">
+          </img>
+        </div>
+        <h4 className="menu__component-title">{props.title}</h4>
+        <p>{props.text}</p>
+        <form >
+          <input/>
+          <button>Подписаться</button>
+        </form>
+      </div>
+    )
+  }
+
   if (props.id > 7) {
     return (
       <div className="menu__component-with-small-photo">
-        <div className="offer__container-photo">
+        <div className="menu__component-container-photo">
           <img className="menu__component-photo" src={props.img}
                width="252" height="192" alt="Edges">
           </img>
@@ -49,7 +89,7 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
   } else {
     return (
       <div className="menu__component">
-        <div className="offer__container-photo">
+        <div className="menu__component-container-photo">
           <img className="menu__component-photo" src={props.img}
                width="534" height="192" alt="Edges">
           </img>

@@ -106,33 +106,33 @@ const smallPhotoBlockNames = [
     time: "10 мин",
     calories: "56 ккал"
   },
-  // {
-  //   id: 12,
-  //   img: "edges.jpg",
-  //   title: "",
-  //   text: "",
-  //   like: 510,
-  //   time: "10 мин",
-  //   calories: "56 ккал"
-  // },
-  // {
-  //   id: 13,
-  //   img: "edges.jpg",
-  //   title: "",
-  //   text: "",
-  //   like: 510,
-  //   time: "10 мин",
-  //   calories: "56 ккал"
-  // },
-  // {
-  //   id: 14,
-  //   img: "edges.jpg",
-  //   title: "",
-  //   text: "",
-  //   like: 510,
-  //   time: "10 мин",
-  //   calories: "56 ккал"
-  // },
+  {
+    id: 12,
+    img: "edges.jpg",
+    title: "Детокс-курс на неделю",
+    text: "Подробнее",
+    like: 510,
+    time: "10 мин",
+    calories: "56 ккал"
+  },
+  {
+    id: 13,
+    img: "edges.jpg",
+    title: "Праздничное меню",
+    text: "Полное меню на любой праздник горячее, салаты, закуски и дессерт",
+    like: 510,
+    time: "10 мин",
+    calories: "56 ккал"
+  },
+  {
+    id: 14,
+    img: "edges.jpg",
+    title: "Подпишитесь на нашу рассылочку",
+    text: "Новые рецепты, сборники, советы и подборки блюд специально для вас!",
+    like: 510,
+    time: "10 мин",
+    calories: "56 ккал"
+  },
 ];
 
 
