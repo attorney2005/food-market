@@ -106,7 +106,6 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
       </div>
     )
   }
-  // <button type="button" className="menu-button"></button>
 }
 
 export default MenuComponent
