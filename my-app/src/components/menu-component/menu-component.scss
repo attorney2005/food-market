@@ -23,9 +23,9 @@
 
 .menu__component-with-out-photo {
   box-sizing:border-box;
+  padding: 19px;
   width: 252px;
   height: 152px;
-  //padding: 22px 23px 23px 30px;
   font-family: Raleway, serif;
   font-weight: 400;
   font-size: 14px;
@@ -45,17 +45,15 @@ background-color: red;
   margin: 0;
   font-family: Raleway, serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 23.4px;
 }
 
-.menu__component-text-block {
-}
-
 .menu__component-text {
+  margin: 8px 0 0 0;
   font-family: Raleway, serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18.9px;
   overflow-wrap: break-word;
 }
@@ -69,10 +67,12 @@ background-color: red;
 
 .menu__component-with-out-photo-info-container {
   display: grid;
+  margin-top: 28px;
 }
 
 .menu__component-with-small-photo-info-container {
   display: grid;
+  margin-top: 17px;
 }
 
 .menu__component-photo-info-container {
@@ -91,16 +91,45 @@ background-color: red;
   background-color:darkorange;
 }
 
+.menu__component-text-block-small-photo{
+  padding: 7px 18px 18px 18px;
+}
+
 .menu__component-text-block {
   display: grid;
+  padding: 7px 19px 0 19px;
+}
+
+.menu__component-photo-info-container {
+  margin-top: 18px;
+  padding-left: 14px;
+  padding-right: 279px;
 }
 
 .menu__component-info {
   grid-row: 1 / 2;
-  margin: 0;
 }
 
-.menu__component-mailing {
+.menu__component-course {
+  padding: 20px 0 0 18px;
+  background: url(../../../public/menu-pictures/detox.png) no-repeat;
+
+}
+
+.menu__component-holiday > .menu__component-container-photo {
+  padding: 10px;
+}
+
+.menu__component-holiday-text {
+  margin: 11px 0 0 38px;
+}
+
+.menu__component-mailing > .menu__component-container-photo {
+  padding: 10px;
+}
+
+.menu__component-mailing-subscription {
+  padding-top: 21px;
 }
 
 .menu__component-mailing-form{
