@@ -59,9 +59,10 @@ background-color: red;
 }
 
 .menu__component-link {
+  margin-left: 53px;
   font-family: Raleway, serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 14.09px;
 }
 
@@ -111,16 +112,33 @@ background-color: red;
 }
 
 .menu__component-course {
-  padding: 20px 0 0 19px;
+  padding: 22px 0 0 21px;
   background: url(../../../public/menu-pictures/detox.png) no-repeat center center;
+}
+
+.menu__component-course-title {
+  margin: 0 0 74px 0;
+  font-family: Railway, serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 23.4px;
+}
+
+.menu__component-course-link {
+font-size: 12px;
 }
 
 .menu__component-holiday > .menu__component-container-photo {
   padding: 10px;
 }
 
-.menu__component-holiday-text {
+.menu__component-holiday-text-block {
   margin: 0 0 0 38px;
+}
+
+.menu__component-holiday-text {
+  margin: 13px 0 21px 8px;
+  font-size: 14px;
 }
 
 .menu__component-mailing > .menu__component-container-photo {

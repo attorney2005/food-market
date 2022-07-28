@@ -30,8 +30,8 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
   if (props.id === 12) {
     return (
       <div className="menu__component-course">
-        <h4 className="menu__component-title">{props.title}</h4>
-        <a className="menu__component-link">Подробнее</a>
+        <h4 className="menu__component-course-title">{props.title}</h4>
+        <a className="menu__component-course-link">Подробнее</a>
       </div>
     )
   }
@@ -43,9 +43,9 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
                width="232" height="165" alt="Edges">
           </img>
         </div>
-        <div className="menu__component-holiday-text">
+        <div className="menu__component-holiday-text-block">
           <h4 className="menu__component-title">{props.title}</h4>
-          <p>{props.text}</p>
+          <p className="menu__component-holiday-text">{props.text}</p>
           <a className="menu__component-link">Подробнее</a>
         </div>
       </div>
