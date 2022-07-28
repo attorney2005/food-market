@@ -55,13 +55,15 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
     return (
       <div className="menu__component-mailing">
         <div className="menu__component-container-photo">
-          <img className="menu__component-holiday-photo" src={props.img}
+          <img className="menu__component-mailing-photo" src={props.img}
                width="232" height="252" alt="Edges">
           </img>
         </div>
         <div className="menu__component-mailing-subscription">
-          <h4 className="menu__component-title">{props.title}</h4>
-          <p>{props.text}</p>
+          <div className= "menu__component-mailing-text-block">
+            <h4 className="menu__component-mailing-title">{props.title}</h4>
+            <p className="menu__component-mailing-text">{props.text}</p>
+          </div>
           <form className="menu__component-mailing-form">
             <input className="menu__component-mailing-input" value="Ваша почта"/>
             <button className="menu__component-mailing-button">Подписаться</button>
