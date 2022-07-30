@@ -19,9 +19,27 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
           <h4 className="menu__component-title">{props.title}</h4>
           <p className="menu__component-text">{props.text}</p>
           <div className="menu__component-with-out-photo-info-container">
-            <span className="menu__component-info">{props.like}</span>
-            <span className="menu__component-info">{props.time}</span>
-            <span className="menu__component-info">{props.calories}</span>
+            <div className="menu__component-info">
+              <div className="icon-heart">
+                </div>
+                <div className="likes">
+                  {props.like}
+                </div>
+              </div>
+            <div className="menu__component-info">
+              <div className="icon-time">
+              </div>
+              <div>
+                {props.time}
+              </div>
+            </div>
+            <div className="menu__component-info">
+              <div className="icon-energy">
+              </div>
+              <div>
+                {props.calories}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -60,8 +78,11 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
           </img>
         </div>
         <div className="menu__component-mailing-subscription">
-          <div className= "menu__component-mailing-text-block">
-            <h4 className="menu__component-mailing-title">{props.title}</h4>
+          <div className="menu__component-mailing-text-block">
+            <h4 className="menu__component-mailing-title"><span
+              className="menu__component-mailing-title-first">Попишитесь</span><br></br>
+              <span className="menu__component-mailing-title-second">на нашу рассылку</span>
+            </h4>
             <p className="menu__component-mailing-text">{props.text}</p>
           </div>
           <form className="menu__component-mailing-form">
@@ -85,9 +106,27 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
           <h4 className="menu__component-title">{props.title}</h4>
           <p className="menu__component-text">{props.text}</p>
           <div className="menu__component-with-small-photo-info-container">
-            <span className="menu__component-info">{props.like}</span>
-            <span className="menu__component-info">{props.time}</span>
-            <span className="menu__component-info">{props.calories}</span>
+            <div className="menu__component-info">
+              <div className="icon-heart">
+              </div>
+              <div className="likes">
+                {props.like}
+              </div>
+            </div>
+            <div className="menu__component-info">
+              <div className="icon-time">
+              </div>
+              <div>
+                {props.time}
+              </div>
+            </div>
+            <div className="menu__component-info">
+              <div className="icon-energy">
+              </div>
+              <div>
+                {props.calories}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -104,9 +143,27 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
           <h4 className="menu__component-title">{props.title}</h4>
           <p className="menu__component-text">{props.text}</p>
           <div className="menu__component-photo-info-container">
-            <span className="menu__component-info">{props.like}</span>
-            <span className="menu__component-info">{props.time}</span>
-            <span className="menu__component-info">{props.calories}</span>
+            <div className="menu__component-info">
+              <div className="icon-heart">
+              </div>
+              <div className="likes">
+                {props.like}
+              </div>
+            </div>
+            <div className="menu__component-info">
+              <div className="icon-time">
+              </div>
+              <div>
+                {props.time}
+              </div>
+            </div>
+            <div className="menu__component-info">
+              <div className="icon-energy">
+              </div>
+              <div>
+                {props.calories}
+              </div>
+            </div>
           </div>
         </div>
       </div>

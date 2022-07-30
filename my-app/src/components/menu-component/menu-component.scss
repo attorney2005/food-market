@@ -1,5 +1,5 @@
 .menu__component {
-  box-sizing:border-box;
+  box-sizing: border-box;
   width: 534px;
   //height: 344px;
   border-radius: 10px;
@@ -18,11 +18,11 @@
 
 .menu__component-mailing {
   border-radius: 10px;
-  background-color:bisque;
+  background-color: bisque;
 }
 
 .menu__component-with-out-photo {
-  box-sizing:border-box;
+  box-sizing: border-box;
   padding: 19px;
   width: 252px;
   height: 152px;
@@ -37,8 +37,8 @@
   //fill: #FFFFFF;
 }
 
-.menu__component-with-out-photo:nth-child(3n){
-background-color: red;
+.menu__component-with-out-photo:nth-child(3n) {
+  background-color: red;
 }
 
 .menu__component-title {
@@ -87,12 +87,12 @@ background-color: red;
 }
 
 .menu__component-with-small-photo {
-  box-sizing:border-box;
+  box-sizing: border-box;
   border-radius: 10px;
-  background-color:darkorange;
+  background-color: darkorange;
 }
 
-.menu__component-text-block-small-photo{
+.menu__component-text-block-small-photo {
   padding: 7px 18px 18px 18px;
 }
 
@@ -103,7 +103,6 @@ background-color: red;
 
 .menu__component-photo-info-container {
   margin-top: 18px;
-  padding-left: 14px;
   padding-right: 279px;
 }
 
@@ -112,7 +111,7 @@ background-color: red;
 }
 
 .menu__component-course {
-  padding: 22px 97px 0px 21px;
+  padding: 22px 97px 0 21px;
   background: url(../../../public/menu-pictures/detox.png) no-repeat center center;
 }
 
@@ -125,7 +124,7 @@ background-color: red;
 }
 
 .menu__component-course-link {
-font-size: 12px;
+  font-size: 12px;
 }
 
 .menu__component-holiday > .menu__component-container-photo {
@@ -150,34 +149,47 @@ font-size: 12px;
 }
 
 .menu__component-mailing-text-block {
-
+  padding-left: 40px;
 }
 
 .menu__component-mailing-title {
-  margin: 0;
+  margin: 4px 0 0 0;
+  font-size: 17px;
+}
+
+.menu__component-mailing-title-first {
+  margin: 0 0 0 31px;
+}
+
+.menu__component-mailing-title-second {
+  margin: 10px 0 0 8px;
 }
 
 .menu__component-mailing-text {
-margin: 0;
+  margin: 14px 8px 0 0;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.9px;
 }
 
-.menu__component-mailing-form{
+.menu__component-mailing-form {
   display: grid;
-  padding: 24px 30px 0 13px;
+  padding: 9px 30px 0 13px;
 }
 
 .menu__component-mailing-input {
-  margin-top: 19px;
+  margin-top: 13px;
   padding: 12px 67px 12px 12px;
   border-radius: 5px;
   border-color: #FFFFFF;
 }
 
 .menu__component-mailing-button {
-  margin-top: 11px;
+  margin-top: 9px;
   padding: 12px 67px;
   border-radius: 5px;
-  border-color:#31B768;
+  border-color: #31B768;
   background-color: #31B768;
   font-weight: 600;
   font-size: 12px;
@@ -189,11 +201,39 @@ margin: 0;
   width: 252px;
   height: 58px;
   border-radius: 10px;
-  border-color:#FFFFFF;
+  border-color: #FFFFFF;
   background-color: #31B768;
   font-family: Raleway, serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 18.78px;
   color: #FFFFFF;
+}
+
+.menu__component-info {
+  display: flex;
+  align-items: center;
+}
+
+.icon-heart {
+  background: url(/../src/icons/icon-heart.svg) no-repeat center center;
+  width: 14px;
+  height: 19px;
+}
+
+.icon-time {
+  background: url(/../src/icons/icon-timer.svg) no-repeat;
+  margin-left: 14px;
+  width: 14px;
+  height: 19px;
+}
+
+.icon-energy {
+  background: url(/../src/icons/icon-energy.svg) no-repeat;
+  width: 14px;
+  height: 19px;
+}
+
+.likes {
+  margin-left: 7px;
 }
