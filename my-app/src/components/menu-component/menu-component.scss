@@ -223,7 +223,7 @@
 
 .icon-time {
   background: url(/../src/icons/icon-timer.svg) no-repeat;
-  margin-left: 14px;
+  margin-left: 23px;
   width: 14px;
   height: 19px;
 }
@@ -236,4 +236,18 @@
 
 .likes {
   margin-left: 7px;
+  font-family: Railway, sans-serif;
+  font-size: 12px;
+}
+
+.time {
+  margin-left: 8px;
+  font-family: Railway, sans-serif;
+  font-size: 12px;
+}
+
+.calories {
+  margin-left: 7px;
+  font-family: Railway, sans-serif;
+  font-size: 12px;
 }

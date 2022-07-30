@@ -29,14 +29,14 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
             <div className="menu__component-info">
               <div className="icon-time">
               </div>
-              <div>
+              <div className="time">
                 {props.time}
               </div>
             </div>
             <div className="menu__component-info">
               <div className="icon-energy">
               </div>
-              <div>
+              <div className="calories">
                 {props.calories}
               </div>
             </div>
@@ -116,14 +116,14 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
             <div className="menu__component-info">
               <div className="icon-time">
               </div>
-              <div>
+              <div className="time">
                 {props.time}
               </div>
             </div>
             <div className="menu__component-info">
               <div className="icon-energy">
               </div>
-              <div>
+              <div className="calories">
                 {props.calories}
               </div>
             </div>
@@ -153,14 +153,14 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
             <div className="menu__component-info">
               <div className="icon-time">
               </div>
-              <div>
+              <div className="time">
                 {props.time}
               </div>
             </div>
             <div className="menu__component-info">
               <div className="icon-energy">
               </div>
-              <div>
+              <div className="calories">
                 {props.calories}
               </div>
             </div>
