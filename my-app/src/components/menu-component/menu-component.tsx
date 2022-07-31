@@ -21,11 +21,11 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
           <div className="menu__component-with-out-photo-info-container">
             <div className="menu__component-info">
               <div className="icon-heart">
-                </div>
-                <div className="likes">
-                  {props.like}
-                </div>
               </div>
+              <div className="likes">
+                {props.like}
+              </div>
+            </div>
             <div className="menu__component-info">
               <div className="icon-time">
               </div>
