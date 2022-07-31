@@ -15,7 +15,7 @@ function MenuComponent(props: OfferWithPhotoSmallProps): JSX.Element {
   if (props.id < 5) {
     return (
       <div className="menu__component-container">
-        <div className="menu__component-with-out-photo">
+        <div className="menu__component-with-out-photo stroke">
           <h4 className="menu__component-title">{props.title}</h4>
           <p className="menu__component-text">{props.text}</p>
           <div className="menu__component-with-out-photo-info-container">

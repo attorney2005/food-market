@@ -3,22 +3,22 @@
   width: 534px;
   //height: 344px;
   border-radius: 10px;
-  background-color: #61dafb;
+  background-color: #FFFFFF;
 }
 
 .menu__component-course {
   border-radius: 10px;
-  background-color: chartreuse;
+  background-color: #FFFFFF;
 }
 
 .menu__component-holiday {
   border-radius: 10px;
-  background-color: darkgrey;
+  background-color: #FFFFFF;
 }
 
 .menu__component-mailing {
   border-radius: 10px;
-  background-color: bisque;
+  background-color: #FFFFFF;
 }
 
 .menu__component-with-out-photo {
@@ -31,14 +31,11 @@
   font-size: 14px;
   line-height: 18.9px;
   border-radius: 10px;
-  background-color: burlywood;
-  stroke-width: 1px;
-  stroke: #31B768;
-  //fill: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
-.menu__component-with-out-photo:nth-child(3n) {
-  background-color: red;
+.stroke {
+  background: #FFFFFF url(/../src/icons/stroke.svg) no-repeat center center;
 }
 
 .menu__component-title {
@@ -89,7 +86,7 @@
 .menu__component-with-small-photo {
   box-sizing: border-box;
   border-radius: 10px;
-  background-color: darkorange;
+  background-color: #FFFFFF;
 }
 
 .menu__component-text-block-small-photo {
@@ -182,7 +179,8 @@
   margin-top: 13px;
   padding: 12px 67px 12px 12px;
   border-radius: 5px;
-  border-color: #FFFFFF;
+  border-color: #01170A;
+  opacity: 20%
 }
 
 .menu__component-mailing-button {
@@ -201,7 +199,7 @@
   width: 252px;
   height: 58px;
   border-radius: 10px;
-  border-color: #FFFFFF;
+  border-color: #31B768;;
   background-color: #31B768;
   font-family: Raleway, serif;
   font-weight: 600;
