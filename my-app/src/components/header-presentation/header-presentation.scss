@@ -31,8 +31,8 @@
 
 .header__form {
   position: absolute;
-  bottom: 112px;
-  right: 545px;
+  bottom: 113px;
+  right: 558px;
 }
 
 .header__form-container {
@@ -44,13 +44,11 @@
 }
 
 .header__form-input {
+  width: 10px;
+  height: 10px;
   background-color: #E8E8EB;
 }
 
 .header__form-input:checked {
   background-color: #31B768;
-}
-
-.header__form-container-checkmark {
-
 }
