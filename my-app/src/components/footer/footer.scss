@@ -1,6 +1,8 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 0 30px 0 9px;
+  background: #E5E5E5;
 
 }
 
@@ -8,8 +10,27 @@
   display: flex;
 }
 
+.footer-info-copyright {
+  margin: 0;
+  padding-top: 34px;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  line-height: 16.44px;
+}
+
+.footer-info-confidential {
+  padding-top: 34px;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  margin: 0 0 0 26px;
+  line-height: 16.44px;
+}
+
 .footer__social-list {
   display: flex;
+  position: relative;
+  margin: 0;
+  padding: 25px 19px 0 0;
   list-style-type: none;
 }
 
@@ -17,6 +38,10 @@
   margin-left: 20px;
   width: 32px;
   height: 32px;
+}
+
+.footer__social-item:nth-child(1) {
+  margin: 0;
 }
 
 
@@ -34,4 +59,34 @@
 
 .footer__social-item--inst {
   background: url('../../footer-pictures/bg-inst.svg') no-repeat;
+}
+
+.footer__social-item--pinterest-icon {
+  position: absolute;
+  bottom: 9px;
+  right: 182px;
+}
+
+.footer__social-item--fb-icon {
+  position: absolute;
+  bottom: 9px;
+  right: 132px;
+}
+
+.footer__social-item--fb-icon {
+  position: absolute;
+  bottom: 9px;
+  right: 132px;
+}
+
+.footer__social-item--youtube-icon {
+  position: absolute;
+  bottom: 9px;
+  right: 80px;
+}
+
+.footer__social-item--inst-icon {
+  position: absolute;
+  bottom: 9px;
+  right: 27px;
 }
