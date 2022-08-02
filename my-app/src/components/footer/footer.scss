@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-info {
+  display: flex;
+}
+
+.footer__social-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer__social-item--pinterest {
+  background: url('../../footer-pictures/bg -pinterest.svg') no-repeat;
+}
+
+.footer__social-item--fb {
+  background: url('../../footer-pictures/bg -fb.svg') no-repeat;
+}
+
+.footer__social-item--youtube {
+  background: url('../../footer-pictures/bg-youtube.svg') no-repeat;
+}
+
+.footer__social-item--inst {
+  background: url('../../footer-pictures/bg-inst.svg') no-repeat;
+}
