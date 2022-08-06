@@ -1,8 +1,18 @@
 .footer {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding: 0 30px 0 9px;
   background: #E5E5E5;
+}
+
+.footer:before{
+  position: absolute;
+  content: " ";
+  background: #33CCFF;
+  width: 1380px;
+  height: 2px;
+  left: 30px;
 
 }
 
@@ -24,6 +34,7 @@
   font-size: 14px;
   margin: 0 0 0 26px;
   line-height: 16.44px;
+  text-decoration: underline;
 }
 
 .footer__social-list {
@@ -82,7 +93,7 @@
 .footer__social-item--youtube-icon {
   position: absolute;
   bottom: 9px;
-  right: 80px;
+  right: 79px;
 }
 
 .footer__social-item--inst-icon {

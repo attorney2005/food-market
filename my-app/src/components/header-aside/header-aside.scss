@@ -1,4 +1,5 @@
 .header__aside {
+  position: relative;
   display: inline-block;
   float: left;
   margin: 25px 0 0 11px;
@@ -8,6 +9,16 @@
   height: 496px;
   border-radius: 10px;
   background-color: #FFFFFF;
+}
+
+.header__aside:before{
+  position: absolute;
+  content: " ";
+  background: #33CCFF;
+  width: 252px;
+  height: 2px;
+  bottom: 131px;
+  right: 0;
 }
 
 .header__aside-container {
