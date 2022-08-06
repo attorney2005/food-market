@@ -44,11 +44,28 @@
 }
 
 .header__form-input {
+  position: relative;
+  margin: 0 0 0 8px;
   width: 10px;
   height: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+.header__form-input:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
   background-color: #E8E8EB;
 }
 
-.header__form-input:checked {
+.header__form-input:checked:before {
   background-color: #31B768;
 }
+
