@@ -9,12 +9,16 @@
 .footer:before{
   position: absolute;
   content: " ";
-  background: #33CCFF;
+  background-color: rgba(1, 23, 10, 0.1);
   width: 1380px;
   height: 2px;
   left: 30px;
-
+  opacity: 0;
 }
+
+.footer:hover:before{
+  opacity: 1;
+};
 
 .footer-info {
   display: flex;

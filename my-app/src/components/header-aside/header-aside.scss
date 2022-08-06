@@ -14,12 +14,17 @@
 .header__aside:before{
   position: absolute;
   content: " ";
-  background: #33CCFF;
+  background-color: rgba(1, 23, 10, 0.1);
   width: 252px;
   height: 2px;
   bottom: 131px;
   right: 0;
+  opacity: 0;
 }
+
+.header__aside:hover:before{
+  opacity: 1;
+};
 
 .header__aside-container {
   padding-top: 45px;
